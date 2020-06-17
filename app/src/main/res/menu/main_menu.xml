@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cat_spinner"
+        android:orderInCategory="500"
+        android:title="@string/categories_label"
+        app:actionViewClass="android.widget.Spinner"
+        android:background="@color/colorAccent"
+        app:showAsAction="always" />
+    <item android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/app_settings" />
+    <item android:id="@+id/info"
+        android:icon="@drawable/ic_info"
+        android:title="@string/app_info" />
+    <item android:id="@+id/map_light"
+        android:title="@string/map_light" />
+    <item android:id="@+id/map_dark"
+        android:title="@string/map_dark" />
+    <item android:id="@+id/map_street"
+        android:title="@string/map_street" />
+    <item android:id="@+id/map_traffic_day"
+        android:title="@string/map_traffic_day" />
+    <item android:id="@+id/map_traffic_night"
+        android:title="@string/map_traffic_night" />
+</menu>
